@@ -61,6 +61,7 @@ def factorisation_method(f, max_iter=4):
     print(f"x1 = {x1}")
     print(f"x2 = {x2}")
     print(f"x3 = {x3}")
+    
 
 f = input("Enter the function f(x) in terms of x: ")
 f = sympify(f)
